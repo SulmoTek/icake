@@ -1,0 +1,29 @@
+# 这是git的排除文件，不是代码，写这个是防止不该被上传的文件被上传到远程仓库
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.env
+.env.*
+*.db
+*.sqlite3
+
+# Vue / 前端
+node_modules/
+dist/
+dist-ssr/
+*.local
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# 项目
+upload/
+*.log
